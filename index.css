@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+header {
+  background: white;
+  padding: 20px;
+}
+header h1 {
+  columns: 24272e;
+  text-align: center;
+}
+.score-board {
+  border: solid 3px white;
+  width: 200px;
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  border-radius: 50% 50%;
+}
+.badge {
+  font-size: 14px;
+  background: red;
+}
+#user-label {
+  position: absolute;
+  top: 15px;
+  left: -15px;
+}
+#computer-label {
+  position: absolute;
+  top: 15px;
+  right: -15px;
+}
+.result {
+  font-size: 40px;
+  color: pink;
+  text-align: center;
+  font-weight: bold;
+  font-family: fantasy;
+  font-style: italic;
+}
+.choices {
+  text-align: center;
+  margin: 50px;
+}
+.choice {
+  background: white;
+  display: inline-block;
+  border: solid 5px white;
+  margin: 0 15px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.choice:hover {
+  background: skyblue;
+  cursor: pointer;
+}
+#action {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.green-glow {
+  border: 5px solid green;
+  box-shadow: 0 0 10px greenyellow;
+}
+
+.red-glow {
+  border: 5px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.grey-glow {
+  border: 5px solid grey;
+  box-shadow: 0 0 5px black;
+}
